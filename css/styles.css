@@ -1,0 +1,32 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial, sans-serif;background:#0d0d0d;color:#fff}
+h1,h2,h3{color:#ff3333;margin-top:0}
+.container{width:90%;max-width:800px;margin:auto;padding:20px}
+label{display:block;margin-bottom:5px;font-weight:bold}
+input[type=text],input[type=password],input[type=number],select,textarea{width:100%;padding:12px;margin-bottom:12px;border:none;border-radius:8px;background:#1c1c1c;color:#fff;font-size:16px}
+button{width:100%;padding:12px;margin-bottom:10px;border:none;border-radius:8px;font-size:18px;font-weight:bold;cursor:pointer;background:#ff3333;color:#fff;transition:background .2s}
+button:hover{background:#cc0000}
+button.secondary{background:#444}button.secondary:hover{background:#333}
+.tables{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.table-button{width:90px;height:90px;border-radius:10px;font-size:20px;font-weight:bold;display:flex;align-items:center;justify-content:center;color:#fff;transition:transform .1s}
+.table-button.available{background:#00a86b}
+.table-button.occupied{background:#d12222}
+.table-button.dirty{background:#d97b00}
+.table-button:hover{transform:scale(1.05)}
+.products{display:flex;flex-wrap:wrap;gap:12px}
+.product-card{width:calc(50% - 6px);background:#1c1c1c;border-radius:8px;padding:10px;text-align:center;cursor:pointer;transition:transform .2s}
+.product-card:hover{transform:scale(1.05)}
+.product-card img{width:100%;height:150px;object-fit:cover;border-radius:6px;margin-bottom:8px}
+@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.06)}100%{transform:scale(1)}}
+.product-card.animate img{animation:pulse .8s ease-in-out}
+.order-summary{margin-top:20px}
+.order-item{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.order-item-controls{display:flex;gap:6px}
+.orders-list{display:flex;flex-direction:column;gap:15px}
+.order-card{background:#1c1c1c;border-radius:8px;padding:10px}
+.navbar{display:flex;justify-content:space-around;background:#1c1c1c;padding:10px}
+.navbar a{color:#fff;text-decoration:none}
+.table{width:100%;border-collapse:collapse;margin:10px 0}
+.table th,.table td{border:1px solid #333;padding:8px;text-align:left}
+.table th{background:#222;color:#ff3333}
+.text-center{text-align:center}
