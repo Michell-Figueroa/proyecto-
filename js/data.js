@@ -1,15 +1,5 @@
 // Datos por defecto
-const DEFAULT_PRODUCTS = [
-  { id: 'guiso1', category: 'Guisos', name: 'Pollo a la mexicana', price: 70, stock: 20, image: 'assets/images/placeholder.png' },
-  { id: 'guiso2', category: 'Guisos', name: 'Asado de puerco', price: 75, stock: 18, image: 'assets/images/placeholder.png' },
-  { id: 'guiso3', category: 'Guisos', name: 'Bistec en salsa roja', price: 80, stock: 15, image: 'assets/images/placeholder.png' },
-  { id: 'guiso4', category: 'Guisos', name: 'Rajas con queso', price: 65, stock: 22, image: 'assets/images/placeholder.png' },
-  { id: 'plat1',  category: 'Platillos', name: 'Picada sencilla de frijoles', price: 55, stock: 25, image: 'assets/images/placeholder.png' },
-  { id: 'plat2',  category: 'Platillos', name: 'Picada con queso de hebra',   price: 60, stock: 25, image: 'assets/images/placeholder.png' },
-  { id: 'plat3',  category: 'Platillos', name: 'Picada con pollo',            price: 65, stock: 25, image: 'assets/images/placeholder.png' },
-  { id: 'plat4',  category: 'Platillos', name: 'Torta ahogada',               price: 70, stock: 12, image: 'assets/images/placeholder.png' },
-  { id: 'beb1',   category: 'Bebidas',  name: 'Agua del día',                 price: 25, stock: 40, image: 'assets/images/placeholder.png' }
-];
+const DEFAULT_PRODUCTS = [];
 const DEFAULT_EMPLOYEES = [
   { id: 1, name: 'Mesero Demo',    username: 'mesero', password: '1234', role: 'mesero' },
   { id: 2, name: 'Cocinero Demo',  username: 'cocina', password: '1234', role: 'cocina' },
