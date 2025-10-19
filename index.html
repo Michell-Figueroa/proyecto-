@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Antojitos Goyita - Ingreso</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="assets/images/placeholder.png">
+</head><body>
+<div class="container text-center">
+  <h1>Antojitos Goyita</h1>
+  <p>Bienvenido, selecciona tu rol e ingresa tus datos.</p>
+  <form id="loginForm">
+    <label for="username">Usuario</label><input id="username" type="text" required>
+    <label for="password">Contraseña</label><input id="password" type="password" required>
+    <label for="role">Rol</label>
+    <select id="role"><option value="mesero">Mesero</option><option value="cocina">Cocina</option><option value="admin">Administrador</option></select>
+    <button type="submit">Ingresar</button>
+  </form>
+  <p id="loginError" style="color:#ff8080"></p>
+</div>
+<script>
+if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').catch(()=>{})})}
+</script>
+<script src="js/data.js"></script><script src="js/main.js"></script>
+</body></html>

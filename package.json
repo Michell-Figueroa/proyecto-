@@ -1,0 +1,13 @@
+{
+  "name": "antojitos-goyita-webhook-server",
+  "version": "1.0.0",
+  "description": "Webhook server for Mercado Pago integration",
+  "main": "webhook-server.js",
+  "scripts": {
+    "start": "node webhook-server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}

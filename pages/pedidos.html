@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedidos - Antojitos Goyita</title><link rel="stylesheet" href="../css/styles.css"><link rel="manifest" href="../manifest.json"></head>
+<body><div class="container">
+<h2 id="mesaTitle">Pedido</h2>
+<div id="productsContainer"></div>
+<div class="order-summary">
+  <h3>Orden actual</h3>
+  <div id="orderItems"></div>
+  <label for="notes">Notas para cocina</label>
+  <textarea id="notes" rows="3" placeholder="Ej. sin cebolla, extra picante..."></textarea>
+  <p id="total"></p>
+  <button id="sendBtn">Enviar a cocina</button>
+  <button id="payBtn" class="secondary">Proceder a pago</button>
+  <button id="cancelBtn" class="secondary">Cancelar pedido</button>
+  <button id="backBtn" class="secondary">Volver a mesas</button>
+</div>
+</div>
+<script src="../js/data.js"></script><script src="../js/pedidos.js"></script>
+</body></html>
